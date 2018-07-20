@@ -128,13 +128,13 @@ main * {
 
 blockquote.blockquote p { font-size: 29px; font-weight: 300; line-height: 35px; }
 blockquote.blockquote .blockquote-footer cite { font-weight: 400; font-size: 22px; }
-@media(max-width: 991px){
+@media(max-width: 767px){
   .main-banner > div { height: 33.33333%; }
   .main-banner img { width: 100%; }
 }
 @media(max-height: 600px){
   .me-dev-pic {
     width: 200px;
-    height: 200px;
+    height: 200px; 
   }
 }
