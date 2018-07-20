@@ -68,7 +68,11 @@ main * {
   height: 100%;
   box-shadow: 5px 4px 14px #333;
 }
-
+.me-dev-info {
+  width: 305px;
+  height: 305px;
+  margin: 0 auto;
+}
 /* Text animations */
 
 @keyframes tipsy {
