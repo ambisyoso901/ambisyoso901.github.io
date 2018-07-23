@@ -92,8 +92,8 @@ main * {
   letter-spacing: 0;
   margin: 0;
   text-transform: none;
-  position: absolute;
-  top: 40px;
+  position: relative;
+  top: -88%;
   left: auto;
   transform: translateX(0) translateY(0%);
   padding: 60px;
