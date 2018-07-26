@@ -21,6 +21,16 @@
 
     <!-- Custom styles for this template -->  
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "d6c6b497-aad4-4c89-83ca-c4fc23853ec8",
+        });
+      });
+    </script>
   </head>
 
   <body> 
